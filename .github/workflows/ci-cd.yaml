@@ -6,7 +6,7 @@ on:
       - main
 
 env:
-  IMAGE_NAME: saitejam73/web-app
+  IMAGE_NAME: saitejam065/web-app
 
 jobs:
   build-and-push:
