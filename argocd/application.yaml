@@ -6,7 +6,7 @@ metadata:
 spec:
   project: default
   source:
-    repoURL: 'https://github.com/saitejam73/web-app'
+    repoURL: 'https://github.com/mopurusaiteja9/web-app'
     targetRevision: HEAD
     path: helm-chart
     helm:
