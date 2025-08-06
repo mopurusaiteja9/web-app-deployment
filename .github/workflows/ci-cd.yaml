@@ -51,7 +51,7 @@ jobs:
           docker push $IMAGE_NAME:latest
 
       - name: set up Helm
-        uses: azure/setp-helm@v3
+        uses: azure/setup-helm@v3
       - name: Helm upgrade --install  
         run: |
           helm upgrade --install web-app helm-chart/ \ 
