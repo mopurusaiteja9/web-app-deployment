@@ -1,0 +1,15 @@
+replicaCount: 2
+image:
+  repository: saitejam73/web-app
+  tag: latest
+  pullPolicy: Always
+service:
+  type: ClusterIP
+  port: 80
+ingress:
+  enabled: true
+  hosts:
+    - host: web.saitejam73.local
+      paths:
+        - path: /
+          pathType: Prefix
