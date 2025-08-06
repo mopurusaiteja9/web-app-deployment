@@ -1,6 +1,6 @@
 replicaCount: 2
 image:
-  repository: saitejam73/web-app
+  repository: saiteja065/web-app
   tag: latest
   pullPolicy: Always
 service:
@@ -9,7 +9,7 @@ service:
 ingress:
   enabled: true
   hosts:
-    - host: web.saitejam73.local
+    - host: web.saiteja065.local
       paths:
         - path: /
           pathType: Prefix
